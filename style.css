@@ -40,7 +40,11 @@ body {
   height: 10vh;
 }
 
-.catalogo > h3 {
+.catalogo {
+  display: flex;
+}
+
+#catalogo-titulo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,6 +53,14 @@ body {
   text-align: center;
   color: White;
   height: 8vh;
+}
+
+.carros > img {
+  width: 25vw;
+}
+
+.carros > p {
+  color: White;
 }
 
 
