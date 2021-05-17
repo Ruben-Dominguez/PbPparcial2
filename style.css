@@ -40,10 +40,6 @@ body {
   height: 10vh;
 }
 
-.catalogo {
-  display: flex;
-}
-
 #catalogo-titulo {
   display: flex;
   justify-content: center;
@@ -55,12 +51,48 @@ body {
   height: 8vh;
 }
 
+.catalogo {
+  display: flex;
+  width: 90%;
+  height: auto;
+  flex-wrap: wrap;
+  margin: auto auto;
+  justify-content: center;
+}
+
+.carros {
+  width: auto;
+  height: auto;
+  margin: 0 30px 20px 30px;
+}
+
 .carros > img {
-  width: 25vw;
+  width: 500px;
+  height: 350px;
 }
 
 .carros > p {
   color: White;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 15px 0 15px 0;
+}
+
+@media (max-width: 1200px) {
+  .carros >  {
+    margin: 30px;
+  }
+
+  .carros > img {
+    width: 700px;
+    height: 500px;
+  }
+
+  .carros > p {
+    font-size: 2em;
+    margin: 0;
+    padding: 15px 0 15px 0;
+  }
 }
 
 
