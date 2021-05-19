@@ -1,5 +1,5 @@
 root {
-
+  font-family: 'Domine', serif;
 }
 
 body {
@@ -72,13 +72,44 @@ body {
 .carros > img {
   width: 500px;
   height: 350px;
+  transition: .5s;
+}
+
+.carros > img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+  transition: .5s;
 }
 
 .carros > p {
   color: White;
-  font-size: 1.2em;
+  font-size: 1.7em;
   margin: 0;
   padding: 15px 0 15px 0;
+  text-align: center;
+}
+
+.carros > p::before {
+  opacity: 0;
+  content: "🏁 ";
+  transition: 1s;
+}
+
+.carros > p::after {
+  opacity: 0;
+  content: " 🏁";
+  transition: 1s;
+}
+
+.carros:hover > p::before {
+  opacity: 1;
+  content: "🏁 ";
+  transition: 1s;
+}
+
+.carros:hover > p::after {
+  opacity: 1;
+  content: " 🏁";
+  transition: 1s;
 }
 
 @media only screen and (max-width: 1080px) {
