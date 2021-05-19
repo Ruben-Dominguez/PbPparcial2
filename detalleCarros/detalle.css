@@ -11,7 +11,50 @@ body {
     height: fit-content;
 }
 
-h1 {font-family: 'Kanit', sans-serif;
+.logo {
+    text-decoration: none;
+    font-size: 2.5vh;
+    padding: .1vh 0 .1vh 2.5vw;
+    margin: 0;
+}
+  
+.logo > h1 {
+    margin: 0;
+    color: Black;
+}
+  
+.navbar {
+    display: flex;
+    background-color: rgb(255, 100, 100);
+    align-items: center;
+    height: fit-content;
+}
+  
+.navbar > span {
+    width: 60vw;
+  }
+  
+.nav-link {
+    text-decoration: none;
+    color: Black;
+    font-size: 4vh;
+    height: auto;
+    padding: 2.3vh 3vw 2.3vh 3vw;
+    transition:.3s;
+}
+  
+.nav-link:hover {
+    color: Gainsboro;
+    background-color: Maroon;
+    transition:.3s;
+}
+  
+#real-navbar {
+    position: fixed;
+}
+
+#car-name {
+    font-family: 'Kanit', sans-serif;
     font-size: 4em;
     color: White;
     background-color: Maroon;
@@ -27,7 +70,6 @@ h1 {font-family: 'Kanit', sans-serif;
     background-size: 100%;
     animation-name: slides;
     animation-duration: 12s;
-    animation-delay: -2s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
 }
@@ -85,4 +127,18 @@ td {
 td:nth-child(2) {
     padding: 6px 10px 6px 50px;
     text-align: right;
+}
+
+.price {
+    color: Black;
+    font-weight: bolder;
+    background-color: Lawngreen;
+    font-family: 'Kanit', sans-serif;
+}
+
+.price-tag {
+    color: Red;
+    font-weight: bolder;
+    background-color: Lawngreen;
+    font-family: 'Kanit', sans-serif;
 }

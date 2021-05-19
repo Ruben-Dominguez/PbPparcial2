@@ -10,27 +10,46 @@ body {
   background-image: linear-gradient(70deg, black 20%, Dimgrey);
 }
 
+.logo {
+  text-decoration: none;
+  font-size: 2.5vh;
+  padding: .1vh 0 .1vh 2.5vw;
+  margin: 0;
+}
+
+.logo > h1 {
+  margin: 0;
+  color: Black;
+}
+
 .navbar {
   display: flex;
   background-color: rgb(255, 100, 100);
   align-items: center;
-  padding: 1vh 2vw;
-  gap: 2vw;
-  height: 5vh;
-}
-
-.navbar > h1 {
-  font-size: 3.5vh;
+  height: fit-content;
 }
 
 .navbar > span {
-  width: 100%;
+  width: 60vw;
 }
 
-.navbar > a {
+.nav-link {
   text-decoration: none;
   color: Black;
-  font-size: 2vh;
+  font-size: 4vh;
+  height: auto;
+  padding: 2.3vh 3vw 2.3vh 3vw;
+  transition:.3s;
+}
+
+.nav-link:hover {
+  color: Gainsboro;
+  background-color: Maroon;
+  transition:.3s;
+}
+
+#real-navbar {
+  position: fixed;
 }
 
 .descripcion > h2 {
