@@ -65,7 +65,7 @@ body {
 .photos-a3 {
     display: block;
     width: 62vw;
-    height: 70vh;
+    height: 68vh;
     margin: 20px auto 20px auto;
     background-size: 100%;
     animation-name: slides-a3;
@@ -162,7 +162,7 @@ th {
     border: 2px solid White;
     border-collapse: collapse;
     background-color: Maroon;
-    font-size: 1.6em;
+    font-size: 1.8em;
 }
 
 td {
@@ -171,6 +171,7 @@ td {
     border: 2px solid White;
     border-collapse: collapse;
     margin: 0px;
+    font-size: 1.5em;
 }
 
 .specs {
