@@ -6,7 +6,7 @@ Proyecto Segundo Parcial
 
 Bajar la imagen de Docker hub:
 ```
-sudo docker pull rubendominguez/
+sudo docker pull rubendominguez/carros5:v1
 ```
 
 ### Prerequisites
@@ -22,7 +22,7 @@ docker ps
 ### Installing
 
 ```
-docker pull rubendominguez/
+docker pull rubendominguez/carros5:v1
 ```
 
 ## Running the tests
