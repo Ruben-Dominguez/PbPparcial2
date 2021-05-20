@@ -11,6 +11,8 @@ sudo docker pull rubendominguez/carros5:v1
 
 ### Prerequisites
 
+Tener el navegador Google Chrome installado.
+
 Tener Docker instalado en su version mas nueva.
 
 Correr lo siguiente para asegurar de que este instalado:
@@ -27,7 +29,7 @@ docker pull rubendominguez/carros5:v1
 
 ## Running the tests
 
-Una vez instalado Docker y de haber inicializado el contenedor de correr un servidor de node.js en el puerto 8888
+Una vez instalado Docker y de haber inicializado el contenedor se corre un servidor de node.js en el puerto 8888
 
 ### Break down into end to end tests
 
@@ -37,11 +39,18 @@ Se corre con:
 docker run -p 8888:8888 -d rubendominguez/carros5:v1
 ```
 
+Ya con el programa corriendo se abre el navegador Chrome y se ingresa en la barra de navegacion
+
+```
+http://localhost:8888
+```
+
 Dado unos conflicto que las funciones de node fs no corrian en el browser se utilizo localStorage para tener una forma de almacenamiento permanente. Para acceder a los datos ingrsados en la pagina de contacto se ingresa a
 
 ```
 http://localhost:8888/contacto/retrieve.html
 ```
+
 y se oprime el boton datos para generar los datos en la console
 
 
