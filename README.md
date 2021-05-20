@@ -34,7 +34,7 @@ Una vez instalado Docker y de haber inicializado el contenedor de correr un serv
 Se corre con:
 
 ```
-docker run -ti rubendominguez/carros5:v1
+docker run -p 8888:8888 -d rubendominguez/carros5:v1
 ```
 
 Dado unos conflicto que las funciones de node fs no corrian en el browser se utilizo localStorage para tener una forma de almacenamiento permanente. Para acceder a los datos ingrsados en la pagina de contacto se ingresa a
