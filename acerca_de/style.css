@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+  }
+  
+  .page {
+    background-color: darkgrey;
+  }
+  
+  
+  
+  .navbar > h1 {
+    font-size: 3.5vh;
+  }
+  
+  .navbar > span {
+    width: 100%;
+  }
+  
+  .navbar > a {
+    text-decoration: none;
+    color: Black;
+    font-size: 2vh;
+  }
+  
+  .descripcion > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    text-align: center;
+    color: Silver;
+    height: 10vh;
+  }
+  
+  #about-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: Maroon;
+    font-size: 3vh;
+    text-align: center;
+    color: White;
+    height: 8vh;
+  }
+  
+  .about {
+    display: flex;
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    margin: auto auto;
+    justify-content: center;
+  }
+
+   
+  .form {
+    width: auto;
+    height: auto;
+    margin: 0 30px 20px 30px;
+    text-align: center;
+  }
+  
+  .form > p {
+    color: black;
+    font-size: 1em;
+    margin: 0;
+    padding: 15px 0 15px 0;
+  }
+  button {
+    margin-left: 50px;
+  }
