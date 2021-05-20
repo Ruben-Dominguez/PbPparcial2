@@ -1,0 +1,204 @@
+root {
+    font-family: 'Domine', serif;
+}
+
+body {
+    margin: 0;
+}
+
+.page {
+    background-image: linear-gradient(70deg, black 20%, Dimgrey);
+    height: fit-content;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 2.5vh;
+    padding: .1vh 0 .1vh 2.5vw;
+    margin: 0;
+}
+  
+.logo > h1 {
+    margin: 0;
+    color: Black;
+}
+  
+.navbar {
+    display: flex;
+    background-color: rgb(255, 100, 100);
+    align-items: center;
+    height: fit-content;
+}
+  
+.navbar > span {
+    width: 60vw;
+  }
+  
+.nav-link {
+    text-decoration: none;
+    color: Black;
+    font-size: 4vh;
+    height: auto;
+    padding: 2.3vh 3vw 2.3vh 3vw;
+    transition:.3s;
+}
+  
+.nav-link:hover {
+    color: Gainsboro;
+    background-color: Maroon;
+    transition:.3s;
+}
+  
+#real-navbar {
+    position: fixed;
+}
+
+#car-name {
+    font-family: 'Kanit', sans-serif;
+    font-size: 4em;
+    color: White;
+    background-color: Maroon;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.photos-a3 {
+    display: block;
+    width: 62vw;
+    height: 70vh;
+    margin: 20px auto 20px auto;
+    background-size: 100%;
+    animation-name: slides-a3;
+    animation-duration: 12s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slides-a3 {
+    0% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A3-Sedan-6806_14.jpg);
+    }
+    25% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A3-Sedan-6806_30.jpg);
+    }
+    50% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A3-Sedan-6806_17.jpg);
+    }
+    75% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A3-Sedan-6806_27.jpg);
+    }
+    100% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A3-Sedan-6806_14.jpg);
+    }
+}
+
+.photos-a4 {
+    display: block;
+    width: 62vw;
+    height: 70vh;
+    margin: 20px auto 20px auto;
+    background-size: 100%;
+    animation-name: slides-a4;
+    animation-duration: 12s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slides-a4 {
+    0% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A4-6631_15.jpg);
+    }
+    25% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A4-6631_18.jpg);
+    }
+    50% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A4-6631_19.jpg);
+    }
+    75% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A4-6631_17.jpg);
+    }
+    100% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A4-6631_15.jpg);
+    }
+}
+
+.photos-a7 {
+    display: block;
+    width: 62vw;
+    height: 74vh;
+    margin: 20px auto 20px auto;
+    background-size: 100%;
+    animation-name: slides-a7;
+    animation-duration: 12s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slides-a7 {
+    0% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A7-Sportback-6152_90.jpg);
+    }
+    25% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A7-Sportback-6152_46.jpg);
+    }
+    50% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A7-Sportback-6152_48.jpg);
+    }
+    75% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A7-Sportback-6152_88.jpg);
+    }
+    100% {
+        background-image: url(https://s1.cdn.autoevolution.com/images/gallery/AUDI-A7-Sportback-6152_90.jpg);
+    }
+}
+
+table {
+    border: 2px solid White;
+    border-collapse: collapse;
+}
+
+th {
+    color: White;
+    border: 2px solid White;
+    border-collapse: collapse;
+    background-color: Maroon;
+    font-size: 1.6em;
+}
+
+td {
+    color: White;
+    padding: 6px 50px 6px 10px;
+    border: 2px solid White;
+    border-collapse: collapse;
+    margin: 0px;
+}
+
+.specs {
+    width: fit-content;
+    margin: auto auto;
+}
+
+.title {
+    border: 0px solid transparent;
+    background-color: rgb(255, 100, 100);
+    font-weight: 700;
+}
+
+td:nth-child(2) {
+    padding: 6px 10px 6px 50px;
+    text-align: right;
+}
+
+.price {
+    color: Black;
+    font-weight: bolder;
+    background-color: Lawngreen;
+    font-family: 'Kanit', sans-serif;
+}
+
+.price-tag {
+    color: Red;
+    font-weight: bolder;
+    background-color: Lawngreen;
+    font-family: 'Kanit', sans-serif;
+}
